@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.social-links {
+    list-style-type: none; /* Removes the bullet points from the links */
+    padding: 0; /* Removes any default padding */
+}
+
+.social-links li {
+    display: inline; /* Makes the list items appear in a horizontal line */
+    margin-right: 10px; /* Adds some space between the list items */
+}
+/* Removes bullet points only for 'Our Values' list */
+.our-values {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes any default padding */
+}
+
+.our-values li {
+    margin-bottom: 10px; /* Adds space between each item */
+}
+/* Center the table on the page */
+table {
+    width: 80%; /* Adjust table width as needed */
+    margin: 20px auto; /* Centers the table horizontally and adds margin */
+    border-collapse: collapse; /* Removes space between table cells */
+    background-color: #f9f9f9; /* Light background color for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the table */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style table headers */
+th {
+    background-color: #707070; /* Green background color for header */
+    color: white; /* White text */
+    padding: 12px 15px; /* Padding for header cells */
+    text-align: center; /* Center the text */
+    font-size: 1.1em; /* Slightly larger font for header */
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+}
+
+/* Style table data cells */
+td {
+    padding: 12px 15px; /* Padding for table cells */
+    text-align: center; /* Center the text in data cells */
+    border-bottom: 1px solid #ddd; /* Light border below each row */
+    font-size: 1em; /* Default font size for table cells */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Style for the last row to remove the bottom border */
+tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+/* Gallery Page Styling */
+
+/* Basic body and header styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 10%;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Sign Up Section */
+.signup-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links li {
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-links a:hover {
+    color: #4CAF50;
+}
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Form Section */
+.forms-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links li {
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-links a:hover {
+    color: #4CAF50;
+}
